@@ -1,11 +1,10 @@
-import { Button } from '@/components/ui/button'
+import HeroSection from '@/components/base/HeroSection'
 import React from 'react'
 
 const App = () => {
   return (
     <div className=''>
-      <h1>Hello Brother</h1>
-      <Button/>
+     <HeroSection/>
     </div>
   )
 }
